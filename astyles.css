@@ -389,3 +389,7 @@ h1 span {
     width: 100%;
 }
 
+.header-menu .header-padding .logo-container {
+    max-width: 200px;
+}
+
