@@ -9,8 +9,64 @@ body {
     font-size: 16px;
   }
 
+.a-logo{
+  font-family: "Roboto", sans-serif";
+    background: #ffffff;
+    // box-shadow: 0px 3px 12px 0px rgba(18, 18, 18, 0.06);
+    z-index: 999;
+    position: relative;
+    position: sticky;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translate3d(0, 0, 0);
+}
+
+.b-logo {
+        padding: 24px 0;
+        box-shadow: 0px 3px 12px 0px rgba(18, 18, 18, 0.06);
+        will-change: transform, opacity;
+}
+
+.c-logo {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+font-size: 18px;
+
+@media only screen and (max-width: 1400px) {
+    .c-logo {
+        max-width: 95%;
+    }
+}
+}
+
+.mylogo {
+width: 100%;
+margin-bottom: 1rem !important;
+}
+
+.f-logo {
+max-width: 150px;
+}
+
+.e-logo {
+        display: flex;
+        width: 33.33333333%;
+    }
+}
+
+.d-logo {
+align-items: center !important;
+justify-content: space-between !important;
+display: flex;
+}
+
 .logo {
-   width: 150px;
+   width: 50px;
    margin-bottom: 10px;
    display: block;
    max-width: 100%;
@@ -183,7 +239,7 @@ h1 span {
     display: flex;
     flex-wrap: wrap;
     justify-content: none;
-    align-items: start;
+    align-items: center;
     gap: 0 10px;
     width: 100%;
 }
@@ -195,6 +251,10 @@ h1 span {
     box-shadow: 0px 2px 12px 0px rgba(16, 16, 16, 0.08);
     padding: 30px;
     align-items: center;
+width: 100%;
+position: relative;
+font-size: 18px;
+
 }
 
 .pricing-card .pricing-row {
